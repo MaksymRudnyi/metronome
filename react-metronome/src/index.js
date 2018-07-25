@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Metronom from './metronome/Metronome';
+import Metronome from './Metronome.js';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Metronom />, document.getElementById('root'));
+ReactDOM.render(<Metronome/>, document.getElementById('root'));
 registerServiceWorker();
