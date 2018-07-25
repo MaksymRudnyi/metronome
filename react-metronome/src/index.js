@@ -1,3 +1,6 @@
+/*
+Check https://github.com/mtheoryx/react-metronome#npm-test
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Metronome from './Metronome.js';
