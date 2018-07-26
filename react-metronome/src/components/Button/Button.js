@@ -25,7 +25,6 @@ const Button = ({ isPlaying, handleClick }) => {
 };
 
 Button.propTypes = {
-  something: PropTyps.number,
   isPlaying: PropTyps.bool.isRequired,
   handleClick: PropTyps.func.isRequired
 };
