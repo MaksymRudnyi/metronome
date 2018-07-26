@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTyps from 'prop-types';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
@@ -25,8 +25,8 @@ const Button = ({ isPlaying, handleClick }) => {
 };
 
 Button.propTypes = {
-  isPlaying: PropTyps.bool.isRequired,
-  handleClick: PropTyps.func.isRequired
+  isPlaying: PropTypes.bool.isRequired,
+  handleClick: PropTypes.func.isRequired
 };
 
 export default Button;
